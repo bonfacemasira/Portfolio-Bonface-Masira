@@ -214,11 +214,17 @@ div.contact > div.content > section > div.left > form > input[type=submit]:hover
   }
 
 div.contact > div.content > section > div.right{
-    width: 40%;
+    width: 50%;
+}
+
+div.contact > div.content > section > div.right > div.image{
+    width: 60%;
     margin: auto;
 }
 
-
+div.contact > div.content > section > div.right > div.image > img{
+    width: 100%;
+}
 
 /* Footer */
 div.footer{
