@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+
+/* Navigation Bar Section */
+
+/* Home Section */
+
+/* Projects Section */
+
+/* About Me section */
+
+/* Contact Me */
+
+/* Footer */
+div.footer{
+    height: 4rem;
+    color: white;
+    background-color: black;
+    width: 100%;
+    margin: auto;
+}
+
+div.content{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 1.4rem 0;
+}
+
+div.description{
+    width: 50%;
+}
+
+div.social_media{
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+
+i.fa{
+    margin-left: 2rem;
+}
+
+div.social_media > a {
+    text-decoration: none;
+    color: white;
+}
