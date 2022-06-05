@@ -142,6 +142,32 @@ div.about > div.content > section > div.right{
     width: 50%;
 }
 
+div.about > div.content > section > div.right > div.items{
+    width: 70%;
+    margin: auto;
+}
+
+div.about > div.content > section > div.right > div.items > div.image{
+    width: 90%;
+    margin: auto;
+}
+
+div.about > div.content > section > div.right > div.items > div.image > img{
+    width: 100%;
+    height: 100%;
+}
+
+div.about > div.content > section > div.right > div.items > div.quote > p{
+    font-family: 'Grape Nuts', cursive;
+    font-size:xx-large;
+    width: 80%;
+    margin: auto;
+}
+
+div.about > div.content > section > div.right > div.items > div.source{
+    float: right;
+}
+
 /* Contact Me */
 
 /* Footer */
