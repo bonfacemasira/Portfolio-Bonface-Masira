@@ -109,6 +109,35 @@ div.about > div.content > section > div.left > div.tools{
     margin-top: 2rem;
 }
 
+div.about > div.content > section > div.left > div.tools > div.list{
+    margin-top: 0.7rem;
+    display: flex;
+}
+
+div.about > div.content > section > div.left > div.tools > div.list > div.design{
+    width: 25%;
+}
+
+div.about > div.content > section > div.left > div.tools > div.list > div.design > ul {
+    list-style: none;
+    margin-top: 0.5rem;
+}
+
+div.about > div.content > section > div.left > div.tools > div.list > div.development{
+    width: 60%;
+    margin: auto;
+}
+
+div.about > div.content > section > div.left > div.tools > div.list > div.development > div.lists{
+    display: flex;
+}
+
+div.about > div.content > section > div.left > div.tools > div.list > div.development > div.lists > ul{
+    list-style: none;
+    margin: 0.5rem;
+}
+
+
 div.about > div.content > section > div.right{
     width: 50%;
 }
