@@ -6,6 +6,33 @@
 
 
 /* Navigation Bar Section */
+nav{
+    width: 100%;
+    color: black;
+    background-color: white;
+}
+
+nav > div.content{
+    width: 90%;
+    margin: auto;
+}
+
+nav > div.content > div.logo{
+    width: 50%;
+}
+
+nav > div.content > div.menu{
+    display: flex;
+    width: 50%;
+}
+
+nav > div.content > div.menu > h4{
+    margin-left: 3rem;
+}
+
+nav > div.content > div.menu > div{
+    margin-left: 3rem;
+}
 
 /* Home Section */
 
