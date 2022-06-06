@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Bonface Masira Portfolio
  ## By Bonface Masira
 ## Screenshot
  ![image](./assets/images/Capture.JPG)
