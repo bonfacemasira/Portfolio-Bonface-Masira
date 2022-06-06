@@ -10,7 +10,7 @@ nav{
 }
 
 nav > div.content{
-    width: 85%;
+    width: 90%;
     margin: auto;
     display: flex;
 }
@@ -33,6 +33,7 @@ nav > div.content > div.menu{
     width: 50%;
     display: flex;
     align-items: center;
+    justify-content: right;
 }
 
 nav > div.content > div.menu > h4{
@@ -47,7 +48,7 @@ nav > div.content > div.menu > div{
 div.home{
     height: 90%;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 div.home > div.content{
@@ -61,12 +62,12 @@ div.home > div.content > div.left{
 }
 
 div.home > div.content > div.left > div.name{
-    margin-top: 12rem;
+    margin-top: 60%;
 }
 
 div.home > div.content > div.left > div.social_media > a > i{
     color: black;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 div.home > div.content > div.right{
@@ -74,7 +75,6 @@ div.home > div.content > div.right{
 }
 
 div.home > div.content > div.right > div.image{
-    height: 70%;
     width: 80%;
     margin: auto;
 }
@@ -89,6 +89,7 @@ div.home > div.content > div.right > div.image > img{
 /* About Me section */
 div.about{
     width: 100%;
+    height: 100%;
 }
 
 div.about > div.content{
@@ -136,7 +137,6 @@ div.about > div.content > section > div.left > div.tools > div.list > div.develo
     list-style: none;
     margin: 0.5rem;
 }
-
 
 div.about > div.content > section > div.right{
     width: 50%;
