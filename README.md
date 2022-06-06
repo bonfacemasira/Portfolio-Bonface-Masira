@@ -47,7 +47,7 @@ As a user of the application, you will be able to :
  ****
 
 ### Live Link
-- Click this link to view the live application 
+- Click this link to view the live application https://bonfacemasira.github.io/Portfolio-Bonface-Masira/
 ### Technology  Used
 * HTML - which was used to develope the structure of the web application
 * CSS - which was used to style the web pages
