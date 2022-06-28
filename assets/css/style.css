@@ -85,6 +85,31 @@ div.home > div.content > div.right > div.image > img{
 }
 
 /* Projects Section */
+div.projects{
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+div.projects > div.content{
+    width: 90%;
+    margin: auto;
+}
+
+div.projects > div.content > div.section{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.projects > div.content > div.section > div.project{
+    border: 1px solid black;
+    width: 45%;
+    margin: 1rem;
+}
+
 
 /* About Me section */
 div.about{
