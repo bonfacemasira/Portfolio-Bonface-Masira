@@ -13,6 +13,7 @@ nav > div.content{
     width: 90%;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 nav > div.content > div.logo{
@@ -36,7 +37,12 @@ nav > div.content > div.menu{
     justify-content: right;
 }
 
-nav > div.content > div.menu > h4{
+nav > div.content > div.menu > a{
+    text-decoration: none;
+    color: #000000;
+}
+
+nav > div.content > div.menu > a >h4{
     margin-left: 1.5rem;
 }
 
@@ -85,62 +91,102 @@ div.home > div.content > div.right > div.image > img{
 }
 
 /* Projects Section */
-div.projects{
+div#projects{
     width: 100%;
     height: 100%;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-div.projects > div.content{
+div#projects > div.content{
     width: 90%;
     margin: auto;
 }
 
-div.projects > div.content > div.section{
+div#projects > div.content > div.section{
     width: 90%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
 }
 
-div.projects > div.content > div.section > div.project{
+div#projects > div.content > div.section > div.project{
     border: 1px solid black;
     width: 45%;
     margin: 1rem;
 }
 
+div.project > figure{
+    width: 100%;
+}
 
-/* About Me section */
-div.about{
+div.project > figure > div{
+    width: 100%;
+    height: 70%;
+}
+
+div.project > figure > div > img{
     width: 100%;
     height: 100%;
 }
 
-div.about > div.content{
+div.project > figure > figcaption{
+    width: 100%;
+    height: 20%;
+}
+
+div.project > figure > div.buttons{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    bottom: 0;
+}
+
+div.project > figure > div.buttons > .button{
+    width: 40%;
+    border: 1.5px solid black;
+    color: black;
+    padding: 10px 1rem;
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+/* About Me section */
+div#about{
+    width: 100%;
+    height: 100%;
+}
+
+div#about > div.content{
     width: 90%;
     margin: auto;
 }
 
-div.about > div.content > section{
+div#about > div.content > section{
     margin-top: 1.5rem;
     display: flex;
 }
 
-div.about > div.content > section > div.left{
+div#about > div.content > section > div.left{
     width: 50%;
 }
 
-div.about > div.content > section > div.left > div.tools{
+div#about > div.content > section > div.left > div.tools{
     margin-top: 2rem;
 }
 
-div.about > div.content > section > div.left > div.tools > div.list{
+div#about > div.content > section > div.left > div.tools > div.list{
     margin-top: 0.7rem;
     display: flex;
 }
 
-div.about > div.content > section > div.left > div.tools > div.list > div.design{
+div#about > div.content > section > div.left > div.tools > div.list > div.design{
     width: 25%;
 }
 
@@ -149,70 +195,70 @@ div.about > div.content > section > div.left > div.tools > div.list > div.design
     margin-top: 0.5rem;
 }
 
-div.about > div.content > section > div.left > div.tools > div.list > div.development{
+div#about > div.content > section > div.left > div.tools > div.list > div.development{
     width: 60%;
     margin: auto;
 }
 
-div.about > div.content > section > div.left > div.tools > div.list > div.development > div.lists{
+div#about > div.content > section > div.left > div.tools > div.list > div.development > div.lists{
     display: flex;
 }
 
-div.about > div.content > section > div.left > div.tools > div.list > div.development > div.lists > ul{
+div#about > div.content > section > div.left > div.tools > div.list > div.development > div.lists > ul{
     list-style: none;
     margin: 0.5rem;
 }
 
-div.about > div.content > section > div.right{
+div#about > div.content > section > div.right{
     width: 50%;
 }
 
-div.about > div.content > section > div.right > div.items{
+div#about > div.content > section > div.right > div.items{
     width: 70%;
     margin: auto;
 }
 
-div.about > div.content > section > div.right > div.items > div.image{
+div#about > div.content > section > div.right > div.items > div.image{
     width: 90%;
     margin: auto;
 }
 
-div.about > div.content > section > div.right > div.items > div.image > img{
+div#about > div.content > section > div.right > div.items > div.image > img{
     width: 100%;
     height: 100%;
 }
 
-div.about > div.content > section > div.right > div.items > div.quote > p{
+div#about > div.content > section > div.right > div.items > div.quote > p{
     font-family: 'Grape Nuts', cursive;
     font-size:xx-large;
     width: 80%;
     margin: auto;
 }
 
-div.about > div.content > section > div.right > div.items > div.source{
+div#about > div.content > section > div.right > div.items > div.source{
     float: right;
 }
 
 /* Contact Me */
-div.contact{
+div#contact{
     width: 100%;
 }
 
-div.contact > div.content{
+div#contact > div.content{
     width: 90%;
     margin: auto;
 }
 
-div.contact > div.content > section {
+div#contact > div.content > section {
     display: flex;
     width: 100%;
 }
 
-div.contact > div.content > section > div.left{
+div#contact > div.content > section > div.left{
     width: 50%;
 }
 
-div.contact > div.content > section > div.left > form > input[type=text]{
+div#contact > div.content > section > div.left > form > input[type=text]{
     width: 100%;
     padding: 1rem;
     border: 0.06rem solid #ccc;
@@ -223,7 +269,7 @@ div.contact > div.content > section > div.left > form > input[type=text]{
     resize: vertical;
 }
 
-div.contact > div.content > section > div.left > form > input[type=submit] {
+div#contact > div.content > section > div.left > form > input[type=submit] {
     background-color: #000000;
     width: 100%;
     color: white;
@@ -234,20 +280,20 @@ div.contact > div.content > section > div.left > form > input[type=submit] {
     cursor: pointer;
   }
 
-div.contact > div.content > section > div.left > form > input[type=submit]:hover {
+div#contact > div.content > section > div.left > form > input[type=submit]:hover {
     background-color: #202020;
   }
 
-div.contact > div.content > section > div.right{
+div#contact > div.content > section > div.right{
     width: 50%;
 }
 
-div.contact > div.content > section > div.right > div.image{
+div#contact > div.content > section > div.right > div.image{
     width: 60%;
     margin: auto;
 }
 
-div.contact > div.content > section > div.right > div.image > img{
+div#contact > div.content > section > div.right > div.image > img{
     width: 100%;
 }
 
